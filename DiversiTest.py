@@ -88,6 +88,8 @@ def analyse_answers(user_answers):
     if score < 15:
         print("¡Felicidades! Tu puntaje refleja una fuerte conciencia y apertura hacia la diversidad.\nPareces tener una actitud positiva y respetuosa hacia personas de diferentes razas. Continúa fomentando\nla inclusión y la comprensión en tu vida diaria.")
 
+    input("\nPresiona ENTER para salir")
+
 # Function to score the answers
 def score_answer(answer):
     if answer == 'a':
